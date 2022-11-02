@@ -1,0 +1,66 @@
+.padded{
+    border: 1px #6e79bb solid;
+    padding: 5% 1%;
+}
+.bg-sec{
+  background-color: #6e79bb;
+  color: ghostwhite;
+}
+.container-fluid{
+  padding: 5% 3%;
+}
+.jumbotron {
+  background-color: #6e79bb;
+  color: #fff;
+  padding: 100px 25px;
+  font-family: Montserrat, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.yt{
+    line-height: 2;
+    font-size: 30px;
+
+}
+.ytt {
+    text-transform: uppercase;
+    font-weight: bold;
+    color: blue;
+}
+.navbar {
+  margin-bottom: 0;
+  background-color: #6e79bb;
+  z-index: 9999;
+  border: 0;
+  font-size: 12px !important;
+  line-height: 1.42857143 !important;
+  letter-spacing: 4px;
+  border-radius: 0;
+  font-family: Montserrat, sans-serif;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.navbar li a, .navbar .navbar-brand {
+  color: #fff !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a {
+  color: #6e79bb !important;
+  background-color: #fff !important;
+}
+.navbar-default .navbar-toggle {
+  border-color: transparent;
+  color: #fff !important;
+}
+hr {
+  height: 1px;
+}
+.logo{
+  font-size: 300px;
+  color: #6e79bb;
+}
+@media screen and (max-width: 700px) {
+    footer .col-lg-4 {
+        text-align: left;
+        line-height: 2;
+    }
+  }
